@@ -1,0 +1,75 @@
+@media (min-width: 1200px) {
+  
+  header {
+    height: 7em;
+    padding: 3em 5em;
+  }
+  
+  header .logo{
+    width: 50%;
+  }
+  
+  header .score-container {
+    width: 20%;
+    gap: 1em;
+  }
+  
+  header .score-container p {
+    font-size: 2em;
+  }
+  
+  header .score-container .score {
+    font-size: 2.5em;
+  }
+  
+  .options {
+    width: 40%;
+    height: 25em;
+    display: grid;
+    place-content: center;
+  }
+  
+  .triangle {
+    width: 110%;
+    height: 100%;
+  }
+  
+  .user-option, .machine-option {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .user-option img, .machine-option img {
+    width: 30%;
+  }
+  
+  .user-option:after, .machine-option:after {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .scissors {
+    left: 4em;
+    top: -2em;
+  }
+  
+  .paper {
+    left: 22em;
+    top: -2em;
+  }
+  
+  .rock {
+    top: 12em;
+    left: 12.5em;
+  }
+  
+  .left {
+    top: -2em;
+    left: 4em;
+  }
+  
+  .right {
+    top: -2em;
+    left: 22em;
+  }
+}
