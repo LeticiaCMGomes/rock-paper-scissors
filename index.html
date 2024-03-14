@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/fontes.css">
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="src/img/logo.svg" alt="Logo">
+    </div>
+    
+    <div class="score-container">
+      <p>Score</p>
+      <span class="score" id="outScore">0</span>
+    </div>
+  </header>
+  
+  <main class="options">
+    
+    <img class="triangle" src="src/img/bg-triangle.svg" alt="Triangle">
+    
+    <div class="scissors user-option">
+      <img src="src/img/icon-scissors.svg" alt="Scissors">
+    </div>
+    
+    <div class="paper user-option">
+      <img src="src/img/icon-paper.svg" alt="Paper">
+    </div>
+    
+    <div class="rock user-option">
+      <img src="src/img/icon-rock.svg" alt="Rock">
+    </div>
+    
+    <div class="scissors machine-option">
+      <img src="src/img/icon-scissors.svg" alt="">
+    </div>
+    
+    <div class="paper machine-option">
+      <img src="src/img/icon-paper.svg" alt="">
+    </div>
+    
+    <div class="rock machine-option">
+      <img src="src/img/icon-rock.svg" alt="">
+    </div>
+    
+  </main>
+  
+  <div class="end-game">
+    <span class="result-text">you win</span>
+      
+    <button id="btnPlayAgain" class="btn-play-again">play again</button>
+  </div>
+  
+  <button class="btn-rules" id="btnRules">rules</button>
+  
+  <div class="rules">
+    
+    <h1>rules</h1>
+    
+    <img src="src/img/image-rules.svg" alt="Rules">
+    <img src="src/img/icon-close.svg" alt="icon close" id="btnCloseRules">
+  </div>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+  
+  <script src="src/js/main.js"></script>
+</body>
+</html>
