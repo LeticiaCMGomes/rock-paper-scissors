@@ -24,8 +24,9 @@ btnPlayAgain.addEventListener("click", () => {
 userOptions.forEach((option, index) => {
   
   option.addEventListener("click", () => {
-    let triangle = document.querySelector(".triangle")
-    triangle.style.display = "none"
+    
+    document.querySelector(".options").style.backgroundImage = "none"
+    document.querySelector(".options").style.height = "200px"
     
     userOptions.forEach(option => {
       option.style.display = "none"
@@ -102,7 +103,7 @@ function displayResult(index, option) {
 function endGame() {
   document.querySelector(".end-game .result-text").style.opacity = "1";
   
-  document.querySelector(".end-game .btn-play-again").style.right = "3.5em"
+  document.querySelector(".end-game .btn-play-again").classList.add("left-position")
 }
 
 function loadScore() {
