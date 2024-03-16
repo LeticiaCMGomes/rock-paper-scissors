@@ -21,6 +21,12 @@ btnPlayAgain.addEventListener("click", () => {
   location.reload()
 })
 
+let btnReset = document.querySelector("#btnReset")
+btnReset.addEventListener("click", () => {
+  localStorage.clear()
+  loadScore()
+})
+
 userOptions.forEach((option, index) => {
   
   option.addEventListener("click", () => {

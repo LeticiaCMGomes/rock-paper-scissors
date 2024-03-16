@@ -1,10 +1,10 @@
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   
   header {
     width: 70%;
     height: 5em;
     padding: 1em 5em;
-    margin-bottom: 3em;
+    margin-bottom: 7em;
   }
   
   header .logo{
@@ -76,13 +76,14 @@
     left: 18em;
   }
   
-  .end-game .btn-play-again.left-position {
-    left: 26em;
-  }
-  
   .btns-container {
     bottom: 3em;
     left: 50%;
     transform: translateX(-50%)
+  }
+  
+  .btn-rules, .btn-reset {
+    font-size: 2em;
+    width: 25%;
   }
 }

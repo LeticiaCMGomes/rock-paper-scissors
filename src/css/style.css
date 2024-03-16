@@ -64,7 +64,7 @@ header .score-container .score {
   background-position: center;
   position: relative;
   width: 75%;
-  height: 250px;
+  height: 270px;
   margin: auto;
 }
 
@@ -164,7 +164,8 @@ header .score-container .score {
 }
 
 .end-game .btn-play-again.left-position {
-  left: 3.5em;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .end-game .btn-play-again:hover {
