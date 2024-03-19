@@ -4,7 +4,7 @@
     width: 70%;
     height: 5em;
     padding: 1em 5em;
-    margin-bottom: 3em;
+    margin-bottom: 7em;
   }
   
   header .logo{
@@ -86,5 +86,11 @@
   .btn-rules, .btn-reset {
     font-size: 1.2em;
     width: 20%;
+  }
+}
+
+@media (max-height: 800px) {
+  header {
+    margin-bottom: 1em;
   }
 }
