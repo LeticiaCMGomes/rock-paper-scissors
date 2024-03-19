@@ -79,6 +79,7 @@
     bottom: 3em;
     justify-content: space-between;
     width: 90vw;
+    padding: 2em;
   }
   
   .btn-rules, .btn-reset {

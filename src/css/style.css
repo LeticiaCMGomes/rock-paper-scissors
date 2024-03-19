@@ -183,7 +183,7 @@ header .score-container .score {
   position: absolute;
   bottom: 3em;
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 
 .btn-rules, .btn-reset {
