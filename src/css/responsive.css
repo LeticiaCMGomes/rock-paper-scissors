@@ -94,6 +94,12 @@
   }
   
   .end-game .btn-play-again {
-    left: -50em;
+    top: 50em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .end-game .btn-play-again.left {
+    top: 5em;
   }
 }
