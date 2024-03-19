@@ -159,7 +159,7 @@ header .score-container .score {
   border: none;
   position: absolute;
   top: 5em;
-  left: -20em;
+  left: -100vw;
   transition: left 1.2s linear;
 }
 
