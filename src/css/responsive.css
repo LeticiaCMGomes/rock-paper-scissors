@@ -79,8 +79,6 @@
     bottom: 3em;
     justify-content: space-between;
     width: 90vw;
-    left: 50%;
-    transform: translateX(-50%)
   }
   
   .btn-rules, .btn-reset {
