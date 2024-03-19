@@ -1,7 +1,7 @@
 @media (min-width: 1024px) {
   
   header {
-    width: 60%;
+    width: 50%;
     height: 3em;
     padding: 1em 5em;
     margin-bottom: 7em;
@@ -12,16 +12,16 @@
   }
   
   header .score-container {
-    width: 20%;
-    gap: 0.4em;
+    width: 15%;
+    gap: 0.2em;
   }
   
   header .score-container p {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   
   header .score-container .score {
-    font-size: 2.5em;
+    font-size: 2.2em;
   }
   
   .options {
@@ -91,6 +91,6 @@
 
 @media (max-height: 800px) {
   header {
-    margin-bottom: 1em;
+    margin-bottom: 3em;
   }
 }
